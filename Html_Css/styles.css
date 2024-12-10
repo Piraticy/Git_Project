@@ -1,0 +1,45 @@
+*{
+    background-color: blanchedalmond;
+    font-family:jaro;
+    box-sizing:border-box;
+}
+h2{
+ text-align: center;
+ color: brown;
+}
+hr{
+    color: coral;
+    height: 1%;
+}
+main{
+    background-color:blanchedalmond;
+}
+.grid-container {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+   
+    
+}
+.grid-1{
+    background-color:coral;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: cadetblue;
+    text-transform: uppercase;
+}
+a:active{
+    color: chocolate;
+}
