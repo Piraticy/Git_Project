@@ -16,8 +16,26 @@ body{
 }
 .calculator{
     border: 2px solid wheat;
-    padding: 18px;
+    padding: 20px;
     border-radius: 10px 0 ;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(115, 114, 120, 0.8);
+    box-shadow: 0px 3px 15px rgba(115, 114, 120, 0.4);
+}
+input{
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    border: none;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    cursor: pointer;
+    font-size: 40px;
+    text-align: right;
+}
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 70px;
 }
